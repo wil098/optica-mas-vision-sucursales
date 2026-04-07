@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Óptica Más Visión - Sucursales</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #e3f2fd, #f5f7fa);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 15px;
+    }
+
+    .container {
+      background: white;
+      padding: 25px 20px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    /* LOGO */
+    .logo {
+      width: 100%;
+      max-width: 180px;
+      height: auto;
+      margin: 0 auto 15px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      padding: 14px 16px;
+      margin-bottom: 10px;
+      border-radius: 12px;
+      color: white;
+      font-weight: 500;
+      transition: 0.25s;
+    }
+
+    .btn span {
+      font-size: 13px;
+      opacity: 0.9;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .matriz { background: #007bff; }
+    .s1 { background: #28a745; }
+    .s2 { background: #ff9800; }
+    .s3 { background: #9c27b0; }
+
+    .icon {
+      font-size: 16px;
+    }
+
+    footer {
+      margin-top: 15px;
+      font-size: 11px;
+      color: #aaa;
+    }
+
+    .powered {
+      margin-top: 8px;
+      font-size: 10px;
+      color: #bbb;
+      text-align: right;
+    }
+
+    /* RESPONSIVE EXTRA */
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 18px;
+      }
+
+      .btn {
+        padding: 12px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- 🔽 AQUÍ PONES TU LOGO -->
+    <img src="logo.png" alt="Óptica Más Visión" class="logo">
+
+    <h1>📍 Nuestras Sucursales</h1>
+    <p>Selecciona la más cercana</p>
+
+    <a class="btn matriz" href="https://maps.app.goo.gl/AdVwn6Qhn7QpfoSx5" target="_blank">
+      <div>
+        Casa Matriz<br>
+        <span>San Vicente</span>
+      </div>
+      <div class="icon">➡️</div>
+    </a>
+
+    <a class="btn s1" href="https://maps.app.goo.gl/ii5rcePBFyc8Bz3J6" target="_blank">
+      <div>
+        Sucursal 1<br>
+        <span>San Vicente</span>
+      </div>
+      <div class="icon">➡️</div>
+    </a>
+
+    <a class="btn s2" href="https://maps.app.goo.gl/GFHSQVBMUcBFRs8a8" target="_blank">
+      <div>
+        Sucursal 2<br>
+        <span>Zacatecoluca</span>
+      </div>
+      <div class="icon">➡️</div>
+    </a>
+
+    <a class="btn s3" href="https://maps.app.goo.gl/zdN6dUJ1THDFLDzc8" target="_blank">
+      <div>
+        Sucursal 3<br>
+        <span>Cojutepeque</span>
+      </div>
+      <div class="icon">➡️</div>
+    </a>
+
+    <footer>
+      Óptica Más Visión • Calidad y confianza
+    </footer>
+
+    <div class="powered">
+      Powered by Creativelab Devs
+    </div>
+
+  </div>
+
+</body>
+</html>
